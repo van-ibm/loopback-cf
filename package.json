@@ -1,0 +1,35 @@
+{
+  "name": "loopback-cf",
+  "version": "1.0.0",
+  "description": "Cloud Foundry component for Loopback",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loopback",
+    "component",
+    "cloudfoundry"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "author": "vanstaub@gmail.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/van-ibm/loopback-cf.git"
+  },
+  "devDependencies": {
+    "@loopback/build": "^2.0.8"
+  },
+  "dependencies": {
+    "@loopback/core": "^1.9.3",
+    "@loopback/rest": "^1.17.0",
+    "cfenv": "^1.2.2",
+    "dotenv": "^8.1.0",
+    "log4js": "^5.1.0"
+  }
+}

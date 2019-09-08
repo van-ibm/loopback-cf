@@ -26,7 +26,7 @@ export class CloudFoundryComponent implements Component {
     if (appEnv.isLocal) {
       // check if a VCAP file is specified or use the one in the app directory's root
       const { VCAP_FILE } = process.env;
-      const vcapFile = VCAP_FILE || '../../../../vcap-services.json';
+      const vcapFile = VCAP_FILE || '../../../vcap-services.json';
       
       logger.info(`VCAP ${vcapFile} found`);
       

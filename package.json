@@ -23,7 +23,7 @@
     "url": "https://github.com/van-ibm/loopback-cf.git"
   },
   "devDependencies": {
-    "@loopback/build": "^2.0.8"
+    "@loopback/build": "^9.0.6"
   },
   "dependencies": {
     "@loopback/core": "^1.9.3",
